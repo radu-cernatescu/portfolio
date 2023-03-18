@@ -11,7 +11,8 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  /* --imp-text-color: #c770f0; */
+  --imp-text-color: #01B1B5;
 }
 
 .purple {
@@ -194,7 +195,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #01B1B5;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -281,17 +282,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #0FE1E6;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #27A2A4 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #27A2A4 !important;
 }
 
 @media (max-width: 767px) {
@@ -579,6 +580,10 @@ button:focus {
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
+}
+
+.tech-icon-text {
+  font-size: 16px;
 }
 
 .quote-card-view {
