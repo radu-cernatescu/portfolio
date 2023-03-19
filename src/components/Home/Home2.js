@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/radu.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -28,9 +27,9 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of interests are &nbsp;
+              My field of interests are 
               <i>
-                <b className="purple">Web Technologies and Cloud Infrastructure </b> and
+                <b className="purple">Web Technologies</b> and <b className="purple">Cloud Infrastructure</b> and
                 also in areas related to{" "}
                 <b className="purple">
                   DevOps and Continuous Integration/Development
@@ -53,9 +52,9 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myPicture">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid picture" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
