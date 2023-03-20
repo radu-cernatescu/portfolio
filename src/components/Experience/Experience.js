@@ -28,6 +28,7 @@ function Experience() {
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     className="vertical-timeline-element--work"
                     dateClassName="vertical-timeline-dates"
                     date="May 2018 - December 2018"
@@ -42,6 +43,7 @@ function Experience() {
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     className="vertical-timeline-element--work"
                     dateClassName="vertical-timeline-dates"
                     date="May 2022 - August 2022"
