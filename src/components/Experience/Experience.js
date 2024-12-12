@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-import {SiGooglescholar, SiSelenium, SiGooglecloud } from  "react-icons/si";
+import {SiGooglescholar, SiSelenium, SiGooglecloud, SiLinux } from  "react-icons/si";
 
 function Experience() {
     return (
@@ -12,19 +12,34 @@ function Experience() {
             <Particle />
 
             <VerticalTimeline>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
+            <VerticalTimelineElement
                     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="September 2018 - April 2023"
+                    className="vertical-timeline-element--work"
+                    dateClassName="vertical-timeline-dates"
+                    date="Feb 2023 - Present"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    icon={<SiGooglescholar />}
+                    icon={<SiLinux />}
                 >
-                    <h3 className="vertical-timeline-element-title">Software Development Student</h3>
-                    <h4 className="vertical-timeline-element-title">Seneca College</h4>
+                    <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Trysight Inc.</h4>
+                    <h5 className="vertical-timeline-element-subtitle">Mississauga, ON</h5>
+                    <p>
+                        Develop embedded Linux solutions with natural language processing, multilingual OCR, and integrated front-end and back-end systems.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    className="vertical-timeline-element--work"
+                    dateClassName="vertical-timeline-dates"
+                    date="May 2022 - August 2022"
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    icon={<SiGooglecloud />}
+                >
+                    <h3 className="vertical-timeline-element-title">Automation Developer Co-Op</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Government of Ontario</h4>
                     <h5 className="vertical-timeline-element-subtitle">Toronto, ON</h5>
                     <p>
-                        Bachelor of Technology in Software Development
+                        Azure Cloud, VM/Infrastructure troubleshooting, scripting to gather telemetry data for PowerBI reports
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -43,20 +58,23 @@ function Experience() {
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     className="vertical-timeline-element--work"
-                    dateClassName="vertical-timeline-dates"
-                    date="May 2022 - August 2022"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                    date="September 2018 - April 2023"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    icon={<SiGooglecloud />}
+                    icon={<SiGooglescholar />}
                 >
-                    <h3 className="vertical-timeline-element-title">Automation Developer Co-Op</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Government of Ontario</h4>
+                    <h3 className="vertical-timeline-element-title">Software Development Student</h3>
+                    <h4 className="vertical-timeline-element-title">Seneca College</h4>
                     <h5 className="vertical-timeline-element-subtitle">Toronto, ON</h5>
                     <p>
-                        Azure Cloud, VM/Infrastructure troubleshooting, scripting to gather telemetry data for PowerBI reports
+                        Bachelor of Technology in Software Development
                     </p>
                 </VerticalTimelineElement>
+
+
+
 
             </VerticalTimeline>
         </Container>

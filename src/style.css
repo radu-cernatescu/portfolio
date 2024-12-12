@@ -308,11 +308,10 @@ button:focus {
 
 .myPicture {
   justify-content: center !important;
-  padding-top: 9em !important;
 }
 
 .picture {
-  width:250px;
+  width:450px;
 }
 
 @media (max-width: 767px) {

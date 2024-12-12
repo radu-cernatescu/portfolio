@@ -10,8 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Radu Cernatescu </span>
             from <span className="purple"> Toronto, Canada.</span>
-            <br />I'm a new graduate from the Software Development degree at Seneca
-            College.
+            <br/> 
+            <br />I'm currently a Software Engineer at Trysight Inc., where I design and build innovative software solutions, including advanced embedded Linux devices with natural language capabilities. With a strong background in software development and a Bachelor's degree in Software Development from Seneca College, I specialize in front-end, back-end, and cloud-based technologies.
             <br />
             <br />
             Apart from coding, some other activities that I love to do:

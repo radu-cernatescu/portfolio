@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import files from "../../Assets/Projects/files-project.png";
-import forexapp from "../../Assets/Projects/forex-app.png";
+import forexapp from "../../Assets/Projects/magnibot2.png";
 import kvm from "../../Assets/Projects/kvm.jpg";
 import gmmk from "../../Assets/Projects/gmmk.jpeg";
 
@@ -19,6 +19,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={forexapp}
+              isBlog={false}
+              title="Magnibot 2"
+              description="
+I led the development of the MagniBot 2, enhancing its functionality by integrating dual cameras and advanced features like Optical Character Recognition (OCR) and multilingual text-to-speech. I worked on both the front-end and back-end, improving the user interface and ensuring seamless device compatibility across multiple platforms, ultimately making the product more accessible and user-friendly for students with low vision."
+              demoLink="https://trysight.com/magnibot-2-robotic-motorized-wireless-camera/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={files}
@@ -38,8 +49,7 @@ function Projects() {
               isBlog={false}
               title="Quantum Mechanical Keyboard Firmware: A Fork supporting GMMK2 65% Keyboard"
               description="Radu's fork of the open-source QMK keyboard firmware with support for Glorious GMMK2 65% & custom key bindings/RGB. Written in C."
-              ghLink="https://github.com/radu-cernatescu/qmk_firmware_gmmk2_p65"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/radu-cernatescu/qmk_firmware_gmmk2_p65"              
             />
           </Col>
 
@@ -54,16 +64,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={forexapp}
-              isBlog={false}
-              title="Android Forex App"
-              description="A simple 3 page Android Java app that allows conversion between currencies, historical conversion and to get the latest business news. Written in Java."
-              ghLink="https://github.com/radu-cernatescu/android-forex-app"
-              // demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
